@@ -16,7 +16,7 @@ from wtforms.validators import DataRequired
 app = flask.Flask(__name__)
 app.config.update(
     CSRF_ENABLED=True,
-    SECRET_KEY='you-will-never-guess',
+    SECRET_KEY='123',
 )
 model = None
 
