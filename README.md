@@ -3,7 +3,13 @@
 С помощью Flask реализован API для классификации комментрия. Можно обратиться либо через функцию (ноутбук /model_creation/model_test.ipynb), либо через web-интерфейс. <br>
 В папке model_creation находится создание и проверка модели, а так же датасеты. <br>
 Файл run_server.py - для запуска Flask на локальной машине. <br>
-application.py - для загрузки на heroku (ссылка на приложение https://babalich1.herokuapp.com/ )
+
+Проект загружен и настроен на heroku с помощью файла application.py и Procfile (https://babalich1.herokuapp.com/) <br>
+В проверочном ноутбуке выполены запросы к API в облаке, а веб-интерфейс доступен по ссылке выше.
+
+
+
+
 
 
 
