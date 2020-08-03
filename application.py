@@ -59,7 +59,7 @@ def predict():
 
 def get_prediction(text):
     body = {"text": text}
-    myurl = "http://localhost:5000/api/predict"
+    myurl = "https://babalich1.herokuapp.com/api/predict"
     req = urllib.request.Request(myurl)
     req.add_header('Content-Type', 'application/json; charset=utf-8')
     jsondata = json.dumps(body)
