@@ -1,0 +1,25 @@
+    <form method="POST" action="{{ url_for('predict_form') }}">
+
+        <div class="form-group row" align=center>
+             <textarea rows="10" cols="45" class="form-control col-sm-6" id="text" name="text" required type="text" value="" placeholder='проверка сообщения на токсичность'></textarea> <br><br>
+            <button type="submit" class="btn btn-info">Predict</button>
+             <br><br>
+            
+	
+            <i>{{ text }}</i><br><br>
+	
+		
+		
+  	    {%if response=='1.0': %}	
+	    <b>Toxic message</b>
+	     {% else %}
+    	    <b>Normal message</b>
+	    {% endif %}
+        </div>
+        
+        
+        
+        
+
+    </form>
+
